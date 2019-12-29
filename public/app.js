@@ -31,7 +31,7 @@ document.addEventListener("DOMContentLoaded", event => {
       .catch(function(error) {
         console.error("error adding document: ", error)
       })
-
+  
       // Add a second document with a generated ID.
       db.collection("users").add({
         first: "Alan",
@@ -46,6 +46,34 @@ document.addEventListener("DOMContentLoaded", event => {
         console.error("Error adding document: ", error);
       });
   })
+
+  function testFirebase(event) {
+    db.collection("users").add({
+      first: "Ada",
+      Last: "Lovelace",
+      born: 1815
+    })
+    .then(function(docRef) {
+      console.log("Document written with ID: ", docRef.id)
+    })
+    .catch(function(error) {
+      console.error("error adding document: ", error)
+    })
+
+    // Add a second document with a generated ID.
+    db.collection("users").add({
+      first: "Alan",
+      middle: "Mathison",
+      last: "Turing",
+      born: 1912
+    })
+    .then(function(docRef) {
+      console.log("Document written with ID: ", docRef.id);
+    })
+    .catch(function(error) {
+      console.error("Error adding document: ", error);
+    });
+  }
 
   function writeNewHabit(uid, username, body) {
     // habit entry
