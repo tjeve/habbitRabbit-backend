@@ -1,0 +1,189 @@
+[debug] [2019-12-27T22:19:42.950Z] ----------------------------------------------------------------------
+[debug] [2019-12-27T22:19:42.951Z] Command:       /usr/local/bin/node /Users/teveline/.npm-global/bin/firebase Serve
+[debug] [2019-12-27T22:19:42.952Z] CLI Version:   7.11.0
+[debug] [2019-12-27T22:19:42.952Z] Platform:      darwin
+[debug] [2019-12-27T22:19:42.952Z] Node Version:  v10.16.3
+[debug] [2019-12-27T22:19:42.953Z] Time:          Fri Dec 27 2019 16:19:42 GMT-0600 (Central Standard Time)
+[debug] [2019-12-27T22:19:42.953Z] ----------------------------------------------------------------------
+[debug] [2019-12-27T22:19:42.953Z] 
+[error] Error: [object Object] is not a Firebase command
+[debug] [2019-12-27T22:19:42.962Z] TypeError: str.toLowerCase is not a function
+    at didYouMean (/Users/teveline/.npm-global/lib/node_modules/firebase-tools/node_modules/didyoumean/didYouMean-1.2.1.js:147:48)
+    at suggestCommands (/Users/teveline/.npm-global/lib/node_modules/firebase-tools/lib/index.js:28:22)
+    at Command.<anonymous> (/Users/teveline/.npm-global/lib/node_modules/firebase-tools/lib/index.js:57:14)
+    at Command.listener (/Users/teveline/.npm-global/lib/node_modules/firebase-tools/node_modules/commander/index.js:360:8)
+    at Command.emit (events.js:198:13)
+    at Command.EventEmitter.emit (domain.js:448:20)
+    at Command.parseArgs (/Users/teveline/.npm-global/lib/node_modules/firebase-tools/node_modules/commander/index.js:801:12)
+    at Command.parse (/Users/teveline/.npm-global/lib/node_modules/firebase-tools/node_modules/commander/index.js:563:21)
+    at Object.<anonymous> (/Users/teveline/.npm-global/lib/node_modules/firebase-tools/lib/bin/firebase.js:98:22)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:831:12)
+    at startup (internal/bootstrap/node.js:283:19)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2019-12-27T22:20:12.321Z] ----------------------------------------------------------------------
+[debug] [2019-12-27T22:20:12.323Z] Command:       /usr/local/bin/node /Users/teveline/.npm-global/bin/firebase serve
+[debug] [2019-12-27T22:20:12.323Z] CLI Version:   7.11.0
+[debug] [2019-12-27T22:20:12.323Z] Platform:      darwin
+[debug] [2019-12-27T22:20:12.323Z] Node Version:  v10.16.3
+[debug] [2019-12-27T22:20:12.325Z] Time:          Fri Dec 27 2019 16:20:12 GMT-0600 (Central Standard Time)
+[debug] [2019-12-27T22:20:12.325Z] ----------------------------------------------------------------------
+[debug] [2019-12-27T22:20:12.325Z] 
+[debug] [2019-12-27T22:20:12.336Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-12-27T22:20:12.337Z] > authorizing via signed-in user
+[debug] [2019-12-27T22:20:12.337Z] [iam] checking project habbitrabbit-9e705 for permissions ["firebase.projects.get"]
+[debug] [2019-12-27T22:20:12.339Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/habbitrabbit-9e705:testIamPermissions  
+
+[debug] [2019-12-27T22:20:12.580Z] <<< HTTP RESPONSE 200
+[debug] [2019-12-27T22:20:12.582Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/habbitrabbit-9e705  
+ 
+[debug] [2019-12-27T22:20:12.799Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/teveline/digitalcrafts/projects/habbitRabbit-backend'...
+[info] 
+[debug] [2019-12-27T22:20:12.801Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/habbitrabbit-9e705/webApps/-/config  
+ 
+[debug] [2019-12-27T22:20:13.445Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5000
+[debug] [2019-12-29T15:28:52.618Z] ----------------------------------------------------------------------
+[debug] [2019-12-29T15:28:52.621Z] Command:       /usr/local/bin/node /Users/teveline/.npm-global/bin/firebase start
+[debug] [2019-12-29T15:28:52.622Z] CLI Version:   7.11.0
+[debug] [2019-12-29T15:28:52.622Z] Platform:      darwin
+[debug] [2019-12-29T15:28:52.622Z] Node Version:  v10.16.3
+[debug] [2019-12-29T15:28:52.654Z] Time:          Sun Dec 29 2019 09:28:52 GMT-0600 (Central Standard Time)
+[debug] [2019-12-29T15:28:52.654Z] ----------------------------------------------------------------------
+[debug] [2019-12-29T15:28:52.654Z] 
+[error] Error: [object Object] is not a Firebase command
+[debug] [2019-12-29T15:28:52.688Z] TypeError: str.toLowerCase is not a function
+    at didYouMean (/Users/teveline/.npm-global/lib/node_modules/firebase-tools/node_modules/didyoumean/didYouMean-1.2.1.js:147:48)
+    at suggestCommands (/Users/teveline/.npm-global/lib/node_modules/firebase-tools/lib/index.js:28:22)
+    at Command.<anonymous> (/Users/teveline/.npm-global/lib/node_modules/firebase-tools/lib/index.js:57:14)
+    at Command.listener (/Users/teveline/.npm-global/lib/node_modules/firebase-tools/node_modules/commander/index.js:360:8)
+    at Command.emit (events.js:198:13)
+    at Command.EventEmitter.emit (domain.js:448:20)
+    at Command.parseArgs (/Users/teveline/.npm-global/lib/node_modules/firebase-tools/node_modules/commander/index.js:801:12)
+    at Command.parse (/Users/teveline/.npm-global/lib/node_modules/firebase-tools/node_modules/commander/index.js:563:21)
+    at Object.<anonymous> (/Users/teveline/.npm-global/lib/node_modules/firebase-tools/lib/bin/firebase.js:98:22)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:831:12)
+    at startup (internal/bootstrap/node.js:283:19)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2019-12-29T15:44:36.641Z] ----------------------------------------------------------------------
+[debug] [2019-12-29T15:44:36.643Z] Command:       /usr/local/bin/node /Users/teveline/.npm-global/bin/firebase start
+[debug] [2019-12-29T15:44:36.643Z] CLI Version:   7.11.0
+[debug] [2019-12-29T15:44:36.643Z] Platform:      darwin
+[debug] [2019-12-29T15:44:36.643Z] Node Version:  v10.16.3
+[debug] [2019-12-29T15:44:36.644Z] Time:          Sun Dec 29 2019 09:44:36 GMT-0600 (Central Standard Time)
+[debug] [2019-12-29T15:44:36.644Z] ----------------------------------------------------------------------
+[debug] [2019-12-29T15:44:36.644Z] 
+[error] Error: [object Object] is not a Firebase command
+[debug] [2019-12-29T15:44:36.650Z] TypeError: str.toLowerCase is not a function
+    at didYouMean (/Users/teveline/.npm-global/lib/node_modules/firebase-tools/node_modules/didyoumean/didYouMean-1.2.1.js:147:48)
+    at suggestCommands (/Users/teveline/.npm-global/lib/node_modules/firebase-tools/lib/index.js:28:22)
+    at Command.<anonymous> (/Users/teveline/.npm-global/lib/node_modules/firebase-tools/lib/index.js:57:14)
+    at Command.listener (/Users/teveline/.npm-global/lib/node_modules/firebase-tools/node_modules/commander/index.js:360:8)
+    at Command.emit (events.js:198:13)
+    at Command.EventEmitter.emit (domain.js:448:20)
+    at Command.parseArgs (/Users/teveline/.npm-global/lib/node_modules/firebase-tools/node_modules/commander/index.js:801:12)
+    at Command.parse (/Users/teveline/.npm-global/lib/node_modules/firebase-tools/node_modules/commander/index.js:563:21)
+    at Object.<anonymous> (/Users/teveline/.npm-global/lib/node_modules/firebase-tools/lib/bin/firebase.js:98:22)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:831:12)
+    at startup (internal/bootstrap/node.js:283:19)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2019-12-29T15:45:26.566Z] ----------------------------------------------------------------------
+[debug] [2019-12-29T15:45:26.567Z] Command:       /usr/local/bin/node /Users/teveline/.npm-global/bin/firebase serve
+[debug] [2019-12-29T15:45:26.567Z] CLI Version:   7.11.0
+[debug] [2019-12-29T15:45:26.567Z] Platform:      darwin
+[debug] [2019-12-29T15:45:26.567Z] Node Version:  v10.16.3
+[debug] [2019-12-29T15:45:26.568Z] Time:          Sun Dec 29 2019 09:45:26 GMT-0600 (Central Standard Time)
+[debug] [2019-12-29T15:45:26.568Z] ----------------------------------------------------------------------
+[debug] [2019-12-29T15:45:26.568Z] 
+[debug] [2019-12-29T15:45:26.581Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-12-29T15:45:26.581Z] > authorizing via signed-in user
+[debug] [2019-12-29T15:45:26.581Z] [iam] checking project habbitrabbit-9e705 for permissions ["firebase.projects.get"]
+[debug] [2019-12-29T15:45:26.583Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2019-12-29T15:45:26.583Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2019-12-29T15:45:26.708Z] <<< HTTP RESPONSE 200
+[debug] [2019-12-29T15:45:26.721Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/habbitrabbit-9e705:testIamPermissions  
+
+[debug] [2019-12-29T15:45:26.896Z] <<< HTTP RESPONSE 200
+[debug] [2019-12-29T15:45:26.898Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/habbitrabbit-9e705  
+ 
+[debug] [2019-12-29T15:45:27.740Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/teveline/digitalcrafts/projects/habbitRabbit-backend'...
+[info] 
+[debug] [2019-12-29T15:45:27.746Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/habbitrabbit-9e705/webApps/-/config  
+ 
+[debug] [2019-12-29T15:45:28.354Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5000
+[debug] [2019-12-29T16:07:09.645Z] ----------------------------------------------------------------------
+[debug] [2019-12-29T16:07:09.647Z] Command:       /usr/local/bin/node /Users/teveline/.npm-global/bin/firebase serve
+[debug] [2019-12-29T16:07:09.647Z] CLI Version:   7.11.0
+[debug] [2019-12-29T16:07:09.647Z] Platform:      darwin
+[debug] [2019-12-29T16:07:09.647Z] Node Version:  v10.16.3
+[debug] [2019-12-29T16:07:09.655Z] Time:          Sun Dec 29 2019 10:07:09 GMT-0600 (Central Standard Time)
+[debug] [2019-12-29T16:07:09.655Z] ----------------------------------------------------------------------
+[debug] [2019-12-29T16:07:09.655Z] 
+[debug] [2019-12-29T16:07:09.680Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-12-29T16:07:09.680Z] > authorizing via signed-in user
+[debug] [2019-12-29T16:07:09.681Z] [iam] checking project habbitrabbit-9e705 for permissions ["firebase.projects.get"]
+[debug] [2019-12-29T16:07:09.683Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/habbitrabbit-9e705:testIamPermissions  
+
+[debug] [2019-12-29T16:07:09.897Z] <<< HTTP RESPONSE 200
+[debug] [2019-12-29T16:07:09.899Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/habbitrabbit-9e705  
+ 
+[debug] [2019-12-29T16:07:10.186Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/teveline/digitalcrafts/projects/habbitRabbit-backend'...
+[info] 
+[debug] [2019-12-29T16:07:10.189Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/habbitrabbit-9e705/webApps/-/config  
+ 
+[debug] [2019-12-29T16:07:10.627Z] <<< HTTP RESPONSE 200
+[warn] ⚠  hosting: Port 5000 is not available. Trying another port...
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5005
+[debug] [2019-12-29T16:07:27.154Z] ----------------------------------------------------------------------
+[debug] [2019-12-29T16:07:27.156Z] Command:       /usr/local/bin/node /Users/teveline/.npm-global/bin/firebase serve
+[debug] [2019-12-29T16:07:27.156Z] CLI Version:   7.11.0
+[debug] [2019-12-29T16:07:27.156Z] Platform:      darwin
+[debug] [2019-12-29T16:07:27.156Z] Node Version:  v10.16.3
+[debug] [2019-12-29T16:07:27.157Z] Time:          Sun Dec 29 2019 10:07:27 GMT-0600 (Central Standard Time)
+[debug] [2019-12-29T16:07:27.157Z] ----------------------------------------------------------------------
+[debug] [2019-12-29T16:07:27.157Z] 
+[debug] [2019-12-29T16:07:27.168Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-12-29T16:07:27.169Z] > authorizing via signed-in user
+[debug] [2019-12-29T16:07:27.169Z] [iam] checking project habbitrabbit-9e705 for permissions ["firebase.projects.get"]
+[debug] [2019-12-29T16:07:27.171Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/habbitrabbit-9e705:testIamPermissions  
+
+[debug] [2019-12-29T16:07:27.371Z] <<< HTTP RESPONSE 200
+[debug] [2019-12-29T16:07:27.374Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/habbitrabbit-9e705  
+ 
+[debug] [2019-12-29T16:07:28.163Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/teveline/digitalcrafts/projects/habbitRabbit-backend'...
+[info] 
+[debug] [2019-12-29T16:07:28.166Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/habbitrabbit-9e705/webApps/-/config  
+ 
+[debug] [2019-12-29T16:07:29.337Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5000

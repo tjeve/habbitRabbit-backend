@@ -3,3 +3,16 @@ extends layout
 block content
   h1= title
   p Welcome to #{title}
+  p --> Replace this view with one from Expo <--
+
+
+form(method="POST", action="/user")
+ input(type="hidden", name="_method", value="PUT")
+ p Name
+  input(type="text", name="name")
+ p Email
+  input(type="email", name="email")
+ p Age
+  input(type="number", name="age")
+ p
+  input(type="submit")

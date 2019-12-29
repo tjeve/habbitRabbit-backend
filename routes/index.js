@@ -16,13 +16,4 @@ module.exports = router;
 
 // app.get('/', (req, res) => res.send('Hello World!'))
 
-
-
-
-
-
-
-
-
-
 // app.listen(port, () => console.log(`index.js is running on Port: ${port}`))
