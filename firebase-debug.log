@@ -242,3 +242,58 @@
 [debug] [2019-12-29T21:10:29.794Z] <<< HTTP RESPONSE 200
 [info] i  hosting: Serving hosting files from: public
 [info] ✔  hosting: Local server: http://localhost:5000
+[debug] [2019-12-29T22:30:38.683Z] ----------------------------------------------------------------------
+[debug] [2019-12-29T22:30:38.685Z] Command:       /usr/local/bin/node /Users/teveline/.npm-global/bin/firebase serve
+[debug] [2019-12-29T22:30:38.685Z] CLI Version:   7.11.0
+[debug] [2019-12-29T22:30:38.685Z] Platform:      darwin
+[debug] [2019-12-29T22:30:38.685Z] Node Version:  v10.16.3
+[debug] [2019-12-29T22:30:38.693Z] Time:          Sun Dec 29 2019 16:30:38 GMT-0600 (Central Standard Time)
+[debug] [2019-12-29T22:30:38.693Z] ----------------------------------------------------------------------
+[debug] [2019-12-29T22:30:38.693Z] 
+[debug] [2019-12-29T22:30:38.706Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-12-29T22:30:38.707Z] > authorizing via signed-in user
+[debug] [2019-12-29T22:30:38.707Z] [iam] checking project habbitrabbit-9e705 for permissions ["firebase.projects.get"]
+[debug] [2019-12-29T22:30:38.709Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2019-12-29T22:30:38.709Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2019-12-29T22:30:38.857Z] <<< HTTP RESPONSE 200
+[debug] [2019-12-29T22:30:38.873Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/habbitrabbit-9e705:testIamPermissions  
+
+[debug] [2019-12-29T22:30:39.409Z] <<< HTTP RESPONSE 200
+[debug] [2019-12-29T22:30:39.410Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/habbitrabbit-9e705  
+ 
+[debug] [2019-12-29T22:30:39.595Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/teveline/digitalcrafts/projects/habbitRabbit-backend'...
+[info] 
+[debug] [2019-12-29T22:30:39.598Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/habbitrabbit-9e705/webApps/-/config  
+ 
+[debug] [2019-12-29T22:30:40.563Z] <<< HTTP RESPONSE 200
+[warn] ⚠  hosting: Port 5000 is not available. Trying another port...
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5005
+[debug] [2019-12-29T22:30:55.956Z] ----------------------------------------------------------------------
+[debug] [2019-12-29T22:30:55.957Z] Command:       /usr/local/bin/node /Users/teveline/.npm-global/bin/firebase serve
+[debug] [2019-12-29T22:30:55.958Z] CLI Version:   7.11.0
+[debug] [2019-12-29T22:30:55.958Z] Platform:      darwin
+[debug] [2019-12-29T22:30:55.958Z] Node Version:  v10.16.3
+[debug] [2019-12-29T22:30:55.958Z] Time:          Sun Dec 29 2019 16:30:55 GMT-0600 (Central Standard Time)
+[debug] [2019-12-29T22:30:55.959Z] ----------------------------------------------------------------------
+[debug] [2019-12-29T22:30:55.959Z] 
+[debug] [2019-12-29T22:30:55.970Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-12-29T22:30:55.970Z] > authorizing via signed-in user
+[debug] [2019-12-29T22:30:55.971Z] [iam] checking project habbitrabbit-9e705 for permissions ["firebase.projects.get"]
+[debug] [2019-12-29T22:30:55.972Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/habbitrabbit-9e705:testIamPermissions  
+
+[debug] [2019-12-29T22:30:56.231Z] <<< HTTP RESPONSE 200
+[debug] [2019-12-29T22:30:56.234Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/habbitrabbit-9e705  
+ 
+[debug] [2019-12-29T22:30:56.396Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/teveline/digitalcrafts/projects/habbitRabbit-backend'...
+[info] 
+[debug] [2019-12-29T22:30:56.398Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/habbitrabbit-9e705/webApps/-/config  
+ 
+[debug] [2019-12-29T22:30:57.462Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5000

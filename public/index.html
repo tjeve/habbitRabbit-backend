@@ -34,16 +34,31 @@
     </style>
   </head>
   <body>
-    <h1 id="firstHabit">HabbitRabbit</h1>
-    <button onclick="googleLogin()">
-      Login with Google
-    </button>
+    <div class='title'>
+      <h1>HabbitRabbit</h1>
+    </div>
+    <div class='loginButton'>
+      <button onclick="googleLogin()">
+        Login with Google
+      </button>
+    </div>
+    <br>
     <div>
       <input onchange="updatePost(event)">
     </div>
     <br>
-    <div>
-      <button onclick="testFirebase()">Test Firebase</button>
+    <div class="form">
+      <form action="/action_page.php">
+        habit:<br>
+        <input type="text" name="firstname" value="Mickey">
+        <br>
+        <input type="submit" value="Submit">
+      </form> 
+    </div>
+    <br>
+    <div class='display'>
+      <h2>Habbit Display</h2>
+      <div class='habitDisplay'></div>
     </div>
     <!-- Scripts -->
     <script src="app.js">

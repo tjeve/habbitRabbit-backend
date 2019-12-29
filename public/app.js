@@ -1,51 +1,41 @@
-document.addEventListener("DOMContentLoaded", event => {
+// Initialize Cloud Firestore through Firebase
+firebase.initializeApp({
+  apiKey: 'AIzaSyDbAHE2fV-1zZ3EJXv5sKQ--YqgR5jMYWE',
+  authDomain: 'habbitrabbit-9e705.firebaseapp.com',
+  projectId: 'habbitrabbit-9e705'
+});
 
-    const app = firebase.app()
+var db = firebase.firestore();
 
-    console.log(app)
 
-    const db = firebase.firestore(); //accesses the database
 
-    const myHabit = db.collection('habits').doc('firsthabit') //defines the collection
-    //the firestore is structured by collection then doc, then subcollection, then doc, etc.
-    myHabit.onSnapshot( doc => {
 
-      const data = doc.data()
-      console.log(data)
-      document.querySelector('#firstHabit').innerHTML = data.firstHabit
-      // document.write( data.firstHabit + `<br>`)
-      // document.write( data.startDate + `<br>`)
-        
-      })
 
-      //Example - How to add Data. You don't need to crate collections and documents for
-      // they are implicitley added the first time you add data to your document. 
-      db.collection("users").add({
-        first: "Ada",
-        Last: "Lovelace",
-        born: 1815
-      })
-      .then(function(docRef) {
-        console.log("Document written with ID: ", docRef.id)
-      })
-      .catch(function(error) {
-        console.error("error adding document: ", error)
-      })
-  
-      // Add a second document with a generated ID.
-      db.collection("users").add({
-        first: "Alan",
-        middle: "Mathison",
-        last: "Turing",
-        born: 1912
-      })
-      .then(function(docRef) {
-        console.log("Document written with ID: ", docRef.id);
-      })
-      .catch(function(error) {
-        console.error("Error adding document: ", error);
-      });
-  })
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
   function testFirebase(event) {
     db.collection("users").add({
