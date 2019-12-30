@@ -8,8 +8,9 @@ function googleLogin() {
       document.write(`Hello ${user.displayName}`);
       console.log(user)
       // Write anything else you want to happen after login here
+      // I want the app to return the user back to the homepage, checkout tumblr clone for how we did this.
     })
-    .catch(console.log)
+    .catch(console.log("didn't work, app.js line 12"))
   }
 // Initialize Cloud Firestore through Firebase
 firebase.initializeApp({
@@ -26,7 +27,7 @@ const saveButton = document.querySelector("#saveButton")
 
 saveButton.addEventListener("click", function() {
   const textToSave = inputTextField.value
-  console.log("I am going to save this text value --> " + textToSave + "<--  to Firestore/ the db")
+  console.log("I am going to save this text value --> " + textToSave + " <--  to Firestore/ the db")
   docRef.add({
     habit: textToSave,
     startDate: Date()
@@ -37,8 +38,18 @@ saveButton.addEventListener("click", function() {
   })
 })
 
-
-
+getRealtimeUpdates = function() {
+  docRef.onSnapshot(function(doc) {
+    console.log(doc.docs)
+    // const myData = doc.data();
+    habitDisplay.innerText = doc.doc('dhDyfhfuJx6GTjYudOPa')
+    // if (doc && doc.exists) {
+    //   const myData = doc.data();
+    //   habitDisplay.innerText = myData
+    // }
+  })
+}
+getRealtimeUpdates();
 
 
 
