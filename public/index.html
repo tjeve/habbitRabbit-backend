@@ -38,27 +38,23 @@
       <h1>HabbitRabbit</h1>
     </div>
     <div class='loginButton'>
-      <button onclick="googleLogin()">
+      <button id='loginButton' onclick="googleLogin()">
         Login with Google
       </button>
     </div>
     <br>
-    <div>
-      <input onchange="updatePost(event)">
-    </div>
-    <br>
     <div class="form">
-      <form action="/action_page.php">
-        habit:<br>
-        <input type="text" name="firstname" value="Mickey">
+      <form>
+        New habit:<br>
+        <input id="inputTextField" type="text" name="habit" value="">
         <br>
-        <input type="submit" value="Submit">
+        <button id='saveButton' type="button">Save</button>
       </form> 
     </div>
     <br>
     <div class='display'>
       <h2>Habbit Display</h2>
-      <div class='habitDisplay'></div>
+      <div id='habitDisplay'></div>
     </div>
     <!-- Scripts -->
     <script src="app.js">
